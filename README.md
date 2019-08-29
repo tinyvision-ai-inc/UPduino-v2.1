@@ -10,3 +10,4 @@ The tinyVision.ai UPDuino v2.1 Board Features:
 * 34 GPIO on 0.1” headers
 * SPI Flash, RGB LED, 3.3V and 1.2V Regulators
 * Open source schematic and layout using free Eagle PCB design tools and an RGB LED Example Project.
+* Improved USB footprint to minimize connectors ripping off the board

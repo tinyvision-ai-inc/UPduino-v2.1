@@ -18,6 +18,8 @@ The tinyVision.ai UPduino v2.1 Board Features:
 * Integrated into the open source [APIO toolchain](https://github.com/FPGAwars/apio)
 * Improved USB footprint to minimize connectors ripping off the board
 
+### Please fill out the [next generation survey](https://www.surveymonkey.com/r/HH536D8) to suggest improvements to this board.
+
 You can buy the board here:<a href="https://www.tindie.com/stores/tinyvision_ai/?ref=offsite_badges&utm_source=sellers_vr2045&utm_medium=badges&utm_campaign=badge_medium"><img src="https://d2ss6ovg47m0r5.cloudfront.net/badges/tindie-mediums.png" alt="I sell on Tindie" width="150" height="78"></a>
 
 ## Useful links

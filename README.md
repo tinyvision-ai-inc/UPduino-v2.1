@@ -11,11 +11,14 @@ The tinyVision.ai UPduino v2.1 Board Features:
 * Lattice UltraPlus ICE40UP5K FPGA with 5.3K LUTs, 1Mb SPRAM, 120Kb DPRAM, 8 Multipliers
 * FTDI FT232H USB to SPI Device
 * 30 GPIO on 0.1” headers
-* 8MB SPI Flash
+* 4MB SPI Flash
 * RGB LED
 * On board 3.3V and 1.2V Regulators, can supply 3.3V to your project
-* Open source schematic and layout using free Eagle PCB design tools and an RGB LED Example Project.
+* Open source schematic and layout using Eagle PCB design tools
+* Integrated into the open source [APIO toolchain](https://github.com/FPGAwars/apio)
 * Improved USB footprint to minimize connectors ripping off the board
+
+You can buy the board here:<a href="https://www.tindie.com/stores/tinyvision_ai/?ref=offsite_badges&utm_source=sellers_vr2045&utm_medium=badges&utm_campaign=badge_medium"><img src="https://d2ss6ovg47m0r5.cloudfront.net/badges/tindie-mediums.png" alt="I sell on Tindie" width="150" height="78"></a>
 
 ## Useful links
 * [osresearch](https://github.com/osresearch/up5k): large collection of very useful code and a good overview.

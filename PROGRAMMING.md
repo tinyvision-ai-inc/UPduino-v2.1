@@ -25,8 +25,8 @@ Programming (SPI Flash):
 7. Select your `*.hex` programming file under `Programming file`.
 8. Configure the following `SPI Flash Options`
     a. Winbond (Numonyx for the yellow v2.0 UPDuino)
-    b. TBD (SPI-N25Q032 for the yellow v2.0 UPduino)
-    c. TBD (8-pin VDFPN8 for the yellow v2.0 UPduino)
+    b. SPI-N25Q032A (SPI-N25Q032 for the yellow v2.0 UPduino)
+    c. 8-pin VDFPN8
 9. Click `Load from File` under `SPI Programming` to get load size
 10. Click `Design` -> `Program`
 

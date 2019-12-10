@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<RadiantModule date="2019 05 03 13:47:29" generator="ipgen" library="ip" module="compact_cnn_accelerator" name="lsc_ml_ice40_cnn" source_format="Verilog" vendor="latticesemi.com" version="1.1.0">
+ <Package>
+  <File modified="2019 05 03 13:47:29" name="rtl/lsc_ml_ice40_cnn.v" type="top_level_verilog"/>
+  <File modified="2019 05 03 13:47:29" name="rtl/lsc_ml_ice40_cnn_bb.v" type="black_box_verilog"/>
+  <File modified="2019 05 03 13:47:29" name="misc/lsc_ml_ice40_cnn_tmpl.vhd" type="template_vhdl"/>
+  <File modified="2019 05 03 13:47:29" name="component.xml" type="IP-XACT_output_file"/>
+  <File modified="2019 05 03 13:47:29" name="lsc_ml_ice40_cnn.cfg" type="cfg"/>
+  <File modified="2019 05 03 13:47:29" name="misc/lsc_ml_ice40_cnn_tmpl.v" type="template_verilog"/>
+ </Package>
+</RadiantModule>

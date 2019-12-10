@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="274" height="340">
+<defs> 
+<path id="right-pin-arrow" d="M2,2 L9,5 L2,8 z" fill="black" />
+ <path id="left-pin-arrow" d="M9,2 L9,8 L2,5 z" fill="black" />
+ <path id="right-pins-arrow" d="M2,2 L11,6 L2,10 z" fill="black" />
+ <path id="left-pins-arrow" d="M11,2 L2,6 L11,10 z" fill="black" />
+ </defs>
+ <text x="137" y="24" fill="black" font-size="12" text-anchor="middle"> rom_himax_cfg_324</text>
+<rect id="rect" x="35" y="40" width="204" height="220" style="fill-opacity:0;stroke-width:1;" stroke="black"/> 
+<text x="37" y="80.66666666666666" fill="black" font-size="12" text-anchor="start"> clk_i</text>
+<line x1="10" y1="76.66666666666666" x2="32" y2="76.66666666666666"  stroke="black" stroke-width="1" /> 
+<use x="26" y="71.66666666666666" xlink:href = "#right-pin-arrow"/>
+<text x="37" y="117.33333333333331" fill="black" font-size="12" text-anchor="start"> clk_en_i</text>
+<line x1="10" y1="113.33333333333331" x2="32" y2="113.33333333333331"  stroke="black" stroke-width="1" /> 
+<use x="26" y="108.33333333333331" xlink:href = "#right-pin-arrow"/>
+<text x="37" y="153.99999999999997" fill="black" font-size="12" text-anchor="start"> wr_en_i</text>
+<line x1="10" y1="149.99999999999997" x2="32" y2="149.99999999999997"  stroke="black" stroke-width="1" /> 
+<use x="26" y="144.99999999999997" xlink:href = "#right-pin-arrow"/>
+<text x="37" y="190.66666666666663" fill="black" font-size="12" text-anchor="start"> wr_data_i[15:0]</text>
+<line x1="10" y1="186.66666666666663" x2="30" y2="186.66666666666663"  stroke="black" stroke-width="3" />  
+<use x="24" y="180.66666666666663" xlink:href = "#right-pins-arrow"/>
+<text x="37" y="227.3333333333333" fill="black" font-size="12" text-anchor="start"> addr_i[7:0]</text>
+<line x1="10" y1="223.3333333333333" x2="30" y2="223.3333333333333"  stroke="black" stroke-width="3" />  
+<use x="24" y="217.3333333333333" xlink:href = "#right-pins-arrow"/>
+<text x="237" y="154" fill="black" font-size="12" text-anchor="end"> rd_data_o[15:0]</text>
+<line x1="239" y1="150" x2="259" y2="150"  stroke="black" stroke-width="3" />  
+<use x="253" y="144" xlink:href = "#right-pins-arrow"/>
+</svg>

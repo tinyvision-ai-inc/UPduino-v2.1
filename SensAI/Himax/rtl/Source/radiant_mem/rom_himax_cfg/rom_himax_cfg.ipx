@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<RadiantModule VendorName="Lattice Semiconductor Corporation" date="2018 04 16 10:29:10" generator="ipgen" module="ram_dq" name="rom_himax_cfg" source_format="Verilog" version="1.0">
+ <Package>
+  <File modified="2018 04 16 10:29:10" name="rtl/rom_himax_cfg_bb.v" type="black_box_verilog"/>
+  <File modified="2018 04 16 10:29:10" name="rtl/rom_himax_cfg.v" type="top_level_verilog"/>
+  <File modified="2018 04 16 10:29:10" name="misc/rom_himax_cfg_tmpl.vhd" type="template_vhdl"/>
+  <File modified="2018 04 16 10:29:10" name="misc/rom_himax_cfg_tmpl.v" type="template_verilog"/>
+  <File modified="2018 04 16 10:29:10" name="rom_himax_cfg.cfg" type="cfg"/>
+  <File modified="2017 11 09 01:48:21" name="rtl/core/lscc_ram_dq.v" type="core_verilog"/>
+ </Package>
+</RadiantModule>

@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<RadiantModule date="2019 07 17 13:33:31" generator="ipgen" library="module" module="compact_cnn_accelerator" name="compact_cnn" source_format="Verilog" vendor="Lattice Semiconductor Corporation" version="2.0.0">
+ <Package>
+  <File modified="2019 07 17 13:33:31" name="rtl/compact_cnn.v" type="top_level_verilog"/>
+  <File modified="2019 07 17 13:33:31" name="rtl/compact_cnn_bb.v" type="black_box_verilog"/>
+  <File modified="2019 07 17 13:33:31" name="misc/compact_cnn_tmpl.vhd" type="template_vhdl"/>
+  <File modified="2019 07 17 13:33:31" name="component.xml" type="IP-XACT_output_file"/>
+  <File modified="2019 07 17 13:33:31" name="compact_cnn.cfg" type="cfg"/>
+  <File modified="2019 07 17 13:33:31" name="misc/compact_cnn_tmpl.v" type="template_verilog"/>
+ </Package>
+</RadiantModule>

@@ -1,0 +1,273 @@
+layer {
+  name: "data"
+  type: "Input"
+  top: "data"
+  input_param {
+    shape {
+      dim: 1
+      dim: 3
+      dim: 64
+      dim: 64
+    }
+  }
+}
+layer {
+  name: "fire1/conv3x3/convolution"
+  type: "Convolution"
+  bottom: "data"
+  top: "Convolution1"
+  convolution_param {
+    num_output: 16
+    bias_term: false
+    pad: 1
+    kernel_size: 3
+    stride: 1
+  }
+}
+layer {
+  name: "fire1/bn/batchnorm/Rsqrt"
+  type: "BatchNorm"
+  bottom: "Convolution1"
+  top: "BatchNorm1"
+}
+layer {
+  name: "fire1/bn/batchnorm/Rsqrt/scale"
+  type: "Scale"
+  bottom: "BatchNorm1"
+  top: "Scale1"
+  scale_param {
+    bias_term: true
+  }
+}
+layer {
+  name: "fire1/Relu"
+  type: "ReLU"
+  bottom: "Scale1"
+  top: "Scale1"
+}
+layer {
+  name: "fire1/pool/MaxPool"
+  type: "Pooling"
+  bottom: "Scale1"
+  top: "Pooling1"
+  pooling_param {
+    pool: MAX
+    kernel_size: 2
+    stride: 2
+  }
+}
+layer {
+  name: "fire2/conv3x3/convolution"
+  type: "Convolution"
+  bottom: "Pooling1"
+  top: "Convolution2"
+  convolution_param {
+    num_output: 16
+    bias_term: false
+    pad: 1
+    kernel_size: 3
+    stride: 1
+  }
+}
+layer {
+  name: "fire2/bn/batchnorm/Rsqrt"
+  type: "BatchNorm"
+  bottom: "Convolution2"
+  top: "BatchNorm2"
+}
+layer {
+  name: "fire2/bn/batchnorm/Rsqrt/scale"
+  type: "Scale"
+  bottom: "BatchNorm2"
+  top: "Scale2"
+  scale_param {
+    bias_term: true
+  }
+}
+layer {
+  name: "fire2/Relu"
+  type: "ReLU"
+  bottom: "Scale2"
+  top: "Scale2"
+}
+layer {
+  name: "fire3/conv3x3/convolution"
+  type: "Convolution"
+  bottom: "Scale2"
+  top: "Convolution3"
+  convolution_param {
+    num_output: 16
+    bias_term: false
+    pad: 1
+    kernel_size: 3
+    stride: 1
+  }
+}
+layer {
+  name: "fire3/bn/batchnorm/Rsqrt"
+  type: "BatchNorm"
+  bottom: "Convolution3"
+  top: "BatchNorm3"
+}
+layer {
+  name: "fire3/bn/batchnorm/Rsqrt/scale"
+  type: "Scale"
+  bottom: "BatchNorm3"
+  top: "Scale3"
+  scale_param {
+    bias_term: true
+  }
+}
+layer {
+  name: "fire3/Relu"
+  type: "ReLU"
+  bottom: "Scale3"
+  top: "Scale3"
+}
+layer {
+  name: "fire3/pool/MaxPool"
+  type: "Pooling"
+  bottom: "Scale3"
+  top: "Pooling2"
+  pooling_param {
+    pool: MAX
+    kernel_size: 2
+    stride: 2
+  }
+}
+layer {
+  name: "fire4/conv3x3/convolution"
+  type: "Convolution"
+  bottom: "Pooling2"
+  top: "Convolution4"
+  convolution_param {
+    num_output: 20
+    bias_term: false
+    pad: 1
+    kernel_size: 3
+    stride: 1
+  }
+}
+layer {
+  name: "fire4/bn/batchnorm/Rsqrt"
+  type: "BatchNorm"
+  bottom: "Convolution4"
+  top: "BatchNorm4"
+}
+layer {
+  name: "fire4/bn/batchnorm/Rsqrt/scale"
+  type: "Scale"
+  bottom: "BatchNorm4"
+  top: "Scale4"
+  scale_param {
+    bias_term: true
+  }
+}
+layer {
+  name: "fire4/Relu"
+  type: "ReLU"
+  bottom: "Scale4"
+  top: "Scale4"
+}
+layer {
+  name: "fire5/conv3x3/convolution"
+  type: "Convolution"
+  bottom: "Scale4"
+  top: "Convolution5"
+  convolution_param {
+    num_output: 20
+    bias_term: false
+    pad: 1
+    kernel_size: 3
+    stride: 1
+  }
+}
+layer {
+  name: "fire5/bn/batchnorm/Rsqrt"
+  type: "BatchNorm"
+  bottom: "Convolution5"
+  top: "BatchNorm5"
+}
+layer {
+  name: "fire5/bn/batchnorm/Rsqrt/scale"
+  type: "Scale"
+  bottom: "BatchNorm5"
+  top: "Scale5"
+  scale_param {
+    bias_term: true
+  }
+}
+layer {
+  name: "fire5/Relu"
+  type: "ReLU"
+  bottom: "Scale5"
+  top: "Scale5"
+}
+layer {
+  name: "fire5/pool/MaxPool"
+  type: "Pooling"
+  bottom: "Scale5"
+  top: "Pooling3"
+  pooling_param {
+    pool: MAX
+    kernel_size: 2
+    stride: 2
+  }
+}
+layer {
+  name: "fire6/conv3x3/convolution"
+  type: "Convolution"
+  bottom: "Pooling3"
+  top: "Convolution6"
+  convolution_param {
+    num_output: 32
+    bias_term: false
+    pad: 1
+    kernel_size: 3
+    stride: 1
+  }
+}
+layer {
+  name: "fire6/bn/batchnorm/Rsqrt"
+  type: "BatchNorm"
+  bottom: "Convolution6"
+  top: "BatchNorm6"
+}
+layer {
+  name: "fire6/bn/batchnorm/Rsqrt/scale"
+  type: "Scale"
+  bottom: "BatchNorm6"
+  top: "Scale6"
+  scale_param {
+    bias_term: true
+  }
+}
+layer {
+  name: "fire6/Relu"
+  type: "ReLU"
+  bottom: "Scale6"
+  top: "Scale6"
+}
+layer {
+  name: "fire6/pool/MaxPool"
+  type: "Pooling"
+  bottom: "Scale6"
+  top: "Pooling4"
+  pooling_param {
+    pool: MAX
+    kernel_size: 2
+    stride: 2
+  }
+}
+layer {
+  name: "conv12/convolution"
+  type: "Convolution"
+  bottom: "Pooling4"
+  top: "conv12/convolution"
+  convolution_param {
+    num_output: 36
+    pad: 1
+    kernel_size: 3
+    stride: 1
+  }
+}

@@ -26,6 +26,8 @@ You can buy the board here:<a href="https://www.tindie.com/stores/tinyvision_ai/
 * [osresearch](https://github.com/osresearch/up5k): large collection of very useful code and a good overview.
 * [UPduino FPGA tutorial using APIO](https://blog.idorobots.org/entries/upduino-fpga-tutorial.html)
 * [A very detailed blog on implementing a RISCV in the FPGA](https://pingu98.wordpress.com/2019/04/08/how-to-build-your-own-cpu-from-scratch-inside-an-fpga/)
+* [FuPY](https://fupy.github.io/) MicroPython on FPGA's!
+* [Migen](https://github.com/m-labs/migen) Python as a High Level tool to generate HW
 
 ## Differences between the v2.0 and v2.1 hardware
 The original design for the UPduino v2.0 was from [GnarlyGrey](http://gnarlygrey.com/). The design for the UPduino was transferred to tinyVision.ai by Lattice Semiconductor recently. The board is already in use for a variety of projects but some improvements were necessary to make this more production friendly. Note that this exercise was a minimal change only!

@@ -40,37 +40,5 @@ The original design for the UPduino v2.0 was from [GnarlyGrey](http://gnarlygrey
 * Boards are built in Carlsbad, CA from parts sourced from Digikey/Mouser so known good, non-recycled parts are used. We use a cool [vapor phase reflow](https://www.westfloridacomponents.com/blog/vapor-phase-reflow-soldering/)!
 * Testing: Each board is inspected using [AOI](https://en.wikipedia.org/wiki/Automated_optical_inspection) to ensure all parts are placed properly. Each board is programmed with a blinking LED to ensure the parts come up and the LED is alive. Also the FTDI EEPROM is programmed with some details.
 
-## Summary of community feedback
-Thank you for the continued feedback! The implementation of any of these ideas will depend on extent of the changes and ROI. Changes are in no particular order (yet)!
-
-### DO NOT CHANGE
-Things that shouldnt change as the community seems to like these:
-* Open source
-* Low cost
-* 0.1" headers/breadboard friendly
-
-### Board related
-* 4 layer board, redo routing, decoupling, ground and power distribution
-* Move micro USB connector inboard to improve panelization
-* Clean up the silkscreen
-* Change design to KiCAD for open source (might cause some heartache for people used to Eagle!)
-* Make it easier to switch voltages: a solder bridge is tough to form on an 0805 resistor! Think about using solder jumper type patterns on the board.
-
-### Flash related
-* Bring out all pins to a header including the flash pins
-* Ability to disconnect the flash completely to get full access to all the FPGA pins
-* qSPI (dual transaction?) flash
-* CRAM (FPGA RAM) direct programming vs Flash using a less intrusive scheme
-
-### Improvements to current features
-* Change IO voltage programming to 1.8V from the current 1.2V as the 1.8V is more common.
-
-### New Stuff
-* Connect 12MHz clock from FTDI to the FPGA to get a more stable clock.
-* Consider going back to the UPduino 1.0 version where there was no on-board programmer but improving the design with all the above items.
-  * This could take the form of a tiny FPGA board with a connector on it.
-
-### Documentation & Examples
-* Add a lot more documentation & examples!
-* Ship with a RISCV port and examples on how to extend that further with some examples
-  * Is there an Arduino like IDE for an embedded RISCV? This would make it very easy to work with and continue work on the processor.
+## Announcing v3.0!
+Thank you for the continued feedback which has been incorporated into the [new 3.0 design ](https://github.com/tinyvision-ai-inc/UPduino-v3.0)
